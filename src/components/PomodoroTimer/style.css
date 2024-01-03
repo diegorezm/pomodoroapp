@@ -1,0 +1,25 @@
+.pomodoro{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pomodoro h2{
+  font-size: 3.75em;
+}
+
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap:5em;
+}
+
+.info__panel{
+  width: 55%;
+  text-align: left;
+  font-size: 1.25em;
+}
