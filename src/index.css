@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  --bg-color: #eff1f5;
+  --fg-color: #4c4f69;
+  --red-color: #e78284;
+  --maroon-color: #ea999c;
+  --teal-color: #81c8be;
+  --blue-color: #1e66f5;
+  --green-color: #a6d189;
+  --sapphire-color: #85c1dc;
+  --grey-color: #7c7f93;
+  --pink-color: #ea76cb;
+  --mauve-color: #8839ef;
+  --yellow-color: #e5c890;
+}
+html,
+body{
+  background: var(--bg-color);
+  color:var(--fg-color);
+}
