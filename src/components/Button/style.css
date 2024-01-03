@@ -20,6 +20,10 @@
   color: var(--fg-color);
 }
 
+.hidden{
+  display: none;
+}
+
 @media(min-width: 1440px) {
   .button {
     width: 10rem;

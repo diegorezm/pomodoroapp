@@ -1,7 +1,7 @@
 import  './style.css';
 
 interface Props {
-  className: 'danger' | 'default',
+  className: 'danger' | 'default' | 'hidden',
   onClick: () => void,
   text: string
 }
