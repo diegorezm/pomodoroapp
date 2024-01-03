@@ -1,11 +1,11 @@
 import './App.css';
+import PomodoroTimer from './components/PomodoroTimer';
 
-function App() {
+export default function App() {
   return (
-      <main className="container">
-      oi
-      </main>
+    <main className="container">
+      <PomodoroTimer />
+    </main>
   );
 }
 
-export default App;
