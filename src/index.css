@@ -25,4 +25,9 @@ html,
 body{
   background: var(--bg-color);
   color:var(--fg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
