@@ -1,0 +1,28 @@
+.button {
+  border: none;
+  width: 6rem;
+  height: 2.75rem;
+  border-radius: 0.4em;
+  font-size: 1em;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.default {
+  background: var(--green-color);
+  color: var(--fg-color);
+}
+
+.danger {
+  background: var(--red-color);
+  color: var(--fg-color);
+}
+
+@media(min-width: 1440px) {
+  .button {
+    width: 10rem;
+    height: 3.75rem;
+  }
+}
